@@ -1,0 +1,17 @@
+{
+  "name": "habit-scorecard",
+  "version": "1.0.0",
+  "description": "A desktop habit tracking application inspired by Atomic Habits built with Electron, React, and SQLite.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "",
+    "start": "",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
