@@ -1,0 +1,39 @@
+:root{
+
+    /* Backgrounds */
+
+    --background:#ECE7D1;
+    --surface:#F7F4EA;
+    --card:#FFFFFF;
+
+    /* Brand */
+
+    --primary:#8E977D;
+    --primary-dark:#7A836A;
+
+    --accent:#8A7650;
+
+    /* Text */
+
+    --text:#2E2A22;
+    --text-light:#777777;
+
+    /* Status */
+
+    --positive:#59C173;
+    --negative:#E25A5A;
+    --neutral:#B6B6B6;
+
+    /* Borders */
+
+    --border:#E6DDC7;
+
+    /* Shadows */
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    /* Radius */
+
+    --radius:16px;
+
+}

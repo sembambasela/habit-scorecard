@@ -1,0 +1,19 @@
+.app-layout{
+
+    display:flex;
+    height:100vh;
+
+}
+
+.main-content{
+
+   display: flex; 
+   flex-direction: column;
+   flex-grow: 1; 
+}
+
+.page-content{
+
+    padding:2rem;
+
+}

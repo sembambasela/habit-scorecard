@@ -7,11 +7,24 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "",
-    "start": "",
-    "build": ""
+   "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+
+   "dev:react": "cd client && npm run dev",
+
+   "dev:electron": "wait-on http://localhost:5173 && electron electron/main.js",
+
+   "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.3",
+    "cross-env": "^10.1.0",
+    "electron": "^41.7.1",
+    "wait-on": "^9.0.10"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.15.3"
+  }
 }
